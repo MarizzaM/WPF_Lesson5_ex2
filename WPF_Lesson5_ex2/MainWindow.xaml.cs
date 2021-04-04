@@ -29,7 +29,7 @@ namespace WPF_Lesson5_ex2
                 while (true)
                 {
                     SafeInvoker.SafeInvoke(this, ChangeColor);
-                    Thread.Sleep(1);
+                    Thread.Sleep(100);
                 }
             });
 
